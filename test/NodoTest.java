@@ -45,7 +45,7 @@ public class NodoTest {
         Nodo instance = new Nodo();
         instance.setDerecho(null);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -59,7 +59,7 @@ public class NodoTest {
         Nodo result = instance.getDerecho();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -72,7 +72,7 @@ public class NodoTest {
         Nodo instance = new Nodo();
         instance.setFrecuencia(frecuencia);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -86,7 +86,7 @@ public class NodoTest {
         Object result = instance.getFrecuencia();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -98,7 +98,7 @@ public class NodoTest {
         Nodo instance = new Nodo();
         instance.setIzquierdo(null);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -112,7 +112,7 @@ public class NodoTest {
         Nodo result = instance.getIzquierdo();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -125,7 +125,7 @@ public class NodoTest {
         Nodo instance = new Nodo();
         instance.setValor(valor);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -139,7 +139,7 @@ public class NodoTest {
         Object result = instance.getValor();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }

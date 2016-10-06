@@ -10,6 +10,8 @@ import java.util.PriorityQueue;
 /**
  *
  * @author Josue
+ * Josué Cifuentes 15275
+ * Pablo Muñoz 15258
  */
 public class Heap {
     

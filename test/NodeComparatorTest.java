@@ -42,14 +42,14 @@ public class NodeComparatorTest {
     @Test
     public void testCompare() {
         System.out.println("compare");
-        Nodo<Integer, Character> o1 = null;
-        Nodo<Integer, Character> o2 = null;
+        Nodo<Integer, Character> o1 = new Nodo(15,'h',null,null);
+        Nodo<Integer, Character> o2 = new Nodo(12,'e',null,null);
         NodeComparator instance = new NodeComparator();
-        int expResult = 0;
+        int expResult = 1;
         int result = instance.compare(o1, o2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
